@@ -15,7 +15,6 @@ public:
                 lastChange = right ;     
         sum = right - left + 1 ;
         maxFruits = max( maxFruits , sum ) ;
-            cout << maxFruits << " " ;
         }
         return maxFruits ;
     }
